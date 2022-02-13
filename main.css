@@ -1,0 +1,41 @@
+:root{
+    --primary:skyblue;
+    --error:red;
+    --warning:yellow;
+    --success:green;
+    --secondary:white;
+    font-size: 10px;
+
+}
+body{
+    font-size: 10px;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.code-img{
+    width:50rem;
+}
+.main-container{
+    display: flex;
+}
+
+.alert{
+    height:5rem;
+    width:50rem;
+}
+.primary{
+    background-color: var(--primary);
+}
+.error{
+    background-color: var(--error);
+}
+.warning{
+    background-color: var(--warning);
+}
+.success{
+    background-color: var(--success);
+}
