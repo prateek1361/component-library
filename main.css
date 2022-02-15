@@ -81,27 +81,73 @@ a{
 .center{
     text-align: center;
 }
-.badge{
-    padding:1rem;
-    height:10rem;
-    width:50rem;    
+.Badges{
+    text-align: center;
+    width:50rem;
+   }
+   .component-area{
     display: flex;
-    align-self: center;
-    justify-content: center;
-    background-color:antiquewhite;
-  }
-  .avatar-w-badge{
+    flex-direction: row;
+    align-items: center;
+    gap: 13rem;
+    background-color: antiquewhite;
+     }
+
+     .main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+      }
+      
+   .avatar-w-badge{
     position: relative;
     
   }
   
-  .round-avatar{  
-   height:10rem;
-   width:5rem; 
+  .round-avatar-badge{  
+    border-radius: 50%;
+    width: 100%;
+    height: inherit;
+    object-fit: cover; 
+    width: 14rem; 
   }
-  .avatar-w-badge{
+  .badge-online{
+    border-radius: 50%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    padding:7px;
+    background-color: var(--online-badge);
+    top:.5rem;
+    left: 10.25rem;
+  }
+  
+  .badge-offline{
+    border-radius: 50%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    padding:7px;
+    background-color:var(--offline-badge);
+    top: .5rem;
+    left: 10.5rem;
+  }
+  .icon-badge{
+    height:14rem;
+  }
+  .icon-w-badge{
     position: relative;
-    
+   
   }
+  .badge-on-icon{
+    border-radius: 50%;
+    position: absolute;
+    top: -3px;
+    right: -1px;
+    background-color: rgb(0, 195, 255);
+  }
+
+  
 
 
