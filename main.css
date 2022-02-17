@@ -310,3 +310,31 @@ toast-heading{
 .sub-text{
     margin: 1rem 0rem;
 }
+
+/*input css*/
+.flex-col{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 1rem 0;
+}
+.input-component-area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    background-color: rgb(215, 250, 222);
+}
+.input-height{
+    line-height: 1.5rem;
+}
+.submit-btn{
+    padding:6px 1rem;
+    background-color: blue;
+    border-radius: 4px;
+    border:none;
+    color: black;
+}
+.submit-btn:hover{
+    background-color: rgb(255, 174, 0);
+}
