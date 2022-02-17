@@ -282,4 +282,31 @@ toast-heading{
     border-radius: 5px;
     border: 1px solid grey;
 }
+/*typo css*/
+.component-areas{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10rem;
+    background-color: rgb(215, 250, 222);
+     }
 
+
+.text-bold{
+    font-weight: bold;
+}
+.text-light{
+    font-weight: lighter;
+}
+
+.text-grey{
+    color: grey;
+}
+
+.text-italic{
+    font-style: italic;
+}
+
+.sub-text{
+    margin: 1rem 0rem;
+}
