@@ -263,6 +263,7 @@ a,button{
     height: inherit;
     object-fit: cover;
 }
+/*toast css*/
 toast-heading{
     text-align: center;
 }
@@ -282,4 +283,24 @@ toast-heading{
     border-radius: 5px;
     border: 1px solid grey;
 }
+
+/*rating css*/
+
+.main-rating{
+    text-align: center;
+    font-size: large;
+}
+.rating-component-area{
+    width: 50rem;
+    height: 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+    padding: 2rem;
+    background-color: beige;
+    gap: 1rem;
+}
+}
+
 
