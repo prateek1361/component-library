@@ -168,6 +168,7 @@ a,button{
 .components{
     display: flex;
     gap: 1rem;
+
 }
 
 .btn{
@@ -175,7 +176,7 @@ a,button{
     padding: 0.75rem 1rem;
     border-radius:5px;
     text-decoration: none;
-    color: white;
+    color: black;
     max-width: 10rem;
    
 }
@@ -229,15 +230,12 @@ a,button{
     border-radius: 4px;
     padding: 0.1rem 0.5rem;
     align-items:center;
-    background-color:var(--primary);
-    color: white;  
-    max-width:8rem;
+    max-width:4rem;
     justify-content: center;
          
 }
 .floating-btn{
-    height: 5rem;
-    width:5rem;
+    text-align: center;
 }
 
 
