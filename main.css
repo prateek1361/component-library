@@ -285,4 +285,157 @@ toast-heading{
     border-radius: 20px;
     border: 10px solid skyblue;
 }
+/*card css*/
+.cards{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;      
+}
 
+
+body{
+    margin: 2rem 0rem;  
+}
+.body-content{
+    color: black;
+}
+.card{
+    width:300px;
+    background:whitesmoke;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px; 
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+}
+
+.card-image{
+    border-bottom: none;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+}
+.img-size{
+    width: 300px;
+    height: 200px;
+}
+
+.card-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-title{
+    font-size:larger;
+    line-height:2rem;
+    margin:0;
+}
+
+.card-sub-title{
+    margin:0;
+    font-size:0.75rem;
+    font-weight: 600;
+    line-height: 1.25rem;
+}
+
+.card-content{
+    color:grey;
+    font-weight: 500;
+    line-height: 1.5rem;  
+}
+
+.div-padding{
+    padding:6px;
+}
+
+.btn{
+    border: none;
+    padding: 8px 0;
+    font-weight: bold;
+    border-radius:5px;
+    line-height:1rem;
+    width: 8rem;  
+}
+
+.primary-btn{
+    background-color: orange;
+   
+}
+.secondary-btn{
+   background-color:orangered;
+}
+
+.primary-btn:hover{
+    background-color:darkorange;
+}
+.secondary-btn:hover{
+    background-color:darkorange;
+ }
+
+.horizontal{
+    display: flex;
+}
+
+.item:nth-child(3){
+    display: none;
+}
+
+.header-image{
+    border-top-right-radius:none;
+}
+.card-w-badge{
+    position: relative;
+}
+
+.card-w-dismiss{
+    position: relative;
+}
+
+.card-badge {
+    background-color: skyblue;
+    position: absolute;
+    top: 0px;
+    left: -2px;
+    padding: 0.5rem;
+    width: 7rem;
+    text-align: center;
+    box-shadow: 4px 4px 15px rgba(26, 35, 126, 0.2);
+}
+.card-dismiss{
+    background-color:skyblue;
+    position: absolute;
+    font-size: large;
+    font-weight: bolder;
+    top: 0px;
+    right:-2px;
+    padding: 0.4rem 0.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%; 
+}
+
+.card-dismiss:hover{
+    background-color:blue;
+    cursor: pointer;
+    
+}
+
+.text-lightblue{    
+    color: red;
+}
+
+.flex-card{
+    display:flex;
+    font-size: 13px;
+    color: blueviolet;
+    gap:6px;
+    justify-content: space-between;
+}
