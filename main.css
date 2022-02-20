@@ -168,6 +168,7 @@ a,button{
 .components{
     display: flex;
     gap: 1rem;
+
 }
 
 .btn{
@@ -175,7 +176,7 @@ a,button{
     padding: 0.75rem 1rem;
     border-radius:5px;
     text-decoration: none;
-    color: white;
+    color: black;
     max-width: 10rem;
    
 }
@@ -229,15 +230,12 @@ a,button{
     border-radius: 4px;
     padding: 0.1rem 0.5rem;
     align-items:center;
-    background-color:var(--primary);
-    color: white;  
-    max-width:8rem;
+    max-width:4rem;
     justify-content: center;
          
 }
 .floating-btn{
-    height: 5rem;
-    width:5rem;
+    text-align: center;
 }
 /*image comp css*/
 .image-container {
@@ -263,6 +261,7 @@ a,button{
     height: inherit;
     object-fit: cover;
 }
+/*toast css*/
 toast-heading{
     text-align: center;
 }
@@ -285,6 +284,7 @@ toast-heading{
     border-radius: 20px;
     border: 10px solid skyblue;
 }
+
 /*card css*/
 .cards{
     background-color: whitesmoke;
@@ -330,6 +330,83 @@ body{
 .card-footer{
     display: flex;
     justify-content: space-between;
+/*typo css*/
+.component-areas{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10rem;
+    background-color: rgb(215, 250, 222);
+     }
+
+
+.text-bold{
+    font-weight: bold;
+}
+.text-light{
+    font-weight: lighter;
+}
+
+.text-grey{
+    color: grey;
+}
+
+.text-italic{
+    font-style: italic;
+}
+
+.sub-text{
+    margin: 1rem 0rem;
+}
+
+/*rating css*/
+
+.main-rating{
+    text-align: center;
+    font-size: large;
+}
+.rating-component-area{
+    width: 50rem;
+    height: 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+    padding: 2rem;
+    background-color: beige;
+    gap: 1rem;
+}
+.checked{
+    color: blue;
+}
+
+/*input css*/
+.flex-col{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 1rem 0;
+}
+.input-component-area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    background-color: rgb(215, 250, 222);
+}
+.input-height{
+    line-height: 1.5rem;
+}
+.submit-btn{
+    padding:6px 1rem;
+    background-color: blue;
+    border-radius: 4px;
+    border:none;
+    color: black;
+}
+.submit-btn:hover{
+    background-color: rgb(255, 174, 0);
+
 }
 
 .card-title{
