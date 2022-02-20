@@ -1,3 +1,4 @@
 # component library
-vintage-ui.netlify.app
+
+https://vintage-ui.netlify.app/
  
