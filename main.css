@@ -4,6 +4,8 @@
     --warning:yellow;
     --success:green;
     --secondary:white;
+    --online-badge:green;
+    --offline-badge:grey;
     font-size: 10px;
 
 }
@@ -39,3 +41,67 @@ a{
 .success{
     background-color: var(--success);
 }
+.avatar{
+
+    height:10rem;
+    width:50rem;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:antiquewhite;
+}
+.rounded-avatar {
+    border-radius: 50%;
+    width: 100%;
+   
+}
+.avatar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    
+}
+
+.avatar-lg{
+    width:8rem;
+    height:7rem;
+}
+
+.avatar-md{
+    width: 6rem;
+    height: 5rem;
+}
+
+  .avatar-sm{
+    width:4rem;
+    height:3rem;
+}
+
+.center{
+    text-align: center;
+}
+.badge{
+    padding:1rem;
+    height:10rem;
+    width:50rem;    
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    background-color:antiquewhite;
+  }
+  .avatar-w-badge{
+    position: relative;
+    
+  }
+  
+  .round-avatar{  
+   height:10rem;
+   width:5rem; 
+  }
+  .avatar-w-badge{
+    position: relative;
+    
+  }
+
+
