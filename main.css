@@ -283,6 +283,34 @@ toast-heading{
     border-radius: 5px;
     border: 1px solid grey;
 }
+/*typo css*/
+.component-areas{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10rem;
+    background-color: rgb(215, 250, 222);
+     }
+
+
+.text-bold{
+    font-weight: bold;
+}
+.text-light{
+    font-weight: lighter;
+}
+
+.text-grey{
+    color: grey;
+}
+
+.text-italic{
+    font-style: italic;
+}
+
+.sub-text{
+    margin: 1rem 0rem;
+}
 
 /*rating css*/
 
@@ -305,5 +333,31 @@ toast-heading{
     color: blue;
 }
 
-
+/*input css*/
+.flex-col{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 1rem 0;
+}
+.input-component-area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    background-color: rgb(215, 250, 222);
+}
+.input-height{
+    line-height: 1.5rem;
+}
+.submit-btn{
+    padding:6px 1rem;
+    background-color: blue;
+    border-radius: 4px;
+    border:none;
+    color: black;
+}
+.submit-btn:hover{
+    background-color: rgb(255, 174, 0);
+}
 
