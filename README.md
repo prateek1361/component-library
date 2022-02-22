@@ -1,9 +1,7 @@
-### Component Library-VINTAGE UI
-
-## Description-
+### ### Description-
 Vintage Ui is an easy to use, customizable CSS Framework, helping people to create their Dream Projects Better and Faster.
 
-# Components Defined  -
+####Co[![](file:///C:/Users/prate/Desktop/Vintage%20UI2.html)](https://vintage-ui.netlify.app/components/button.html)mponents Defined  -
 1.Alerts
 2.Avatar
 3.Badge
@@ -11,11 +9,13 @@ Vintage Ui is an easy to use, customizable CSS Framework, helping people to crea
 5.Cards
 6.Images
 7.Input
-8.Snackbars
+8.Toast
 9.Ratings
-10.Text Utilitie
+10.Text Utilities
 
-live link-
+#### live link-
 
-documentation website-https://vintage-ui.netlify.app/
+Documentation Website -https://vintage-ui.netlify.app/
+
+#### ScreenShots-[![](file:///C:/Users/prate/Desktop/Vintage%20UI1.html)](https://vintage-ui.netlify.app/components/alert.html)
  
