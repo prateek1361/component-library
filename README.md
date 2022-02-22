@@ -1,9 +1,9 @@
-# Component Library-VINTAGE UI
+### Component Library-VINTAGE UI
 
-Description-
+## Description-
 Vintage Ui is an easy to use, customizable CSS Framework, helping people to create their Dream Projects Better and Faster.
 
-Components Defined  -
+# Components Defined  -
 1.Alerts
 2.Avatar
 3.Badge
