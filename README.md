@@ -19,4 +19,4 @@ Vintage Ui is an easy to use, customizable CSS Framework, helping people to crea
 
 Documentation Website -https://vintage-ui.netlify.app/
 
-![This is an image](https://vintage-ui.netlify.app/components/alert.html}
+
